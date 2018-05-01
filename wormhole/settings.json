@@ -1,0 +1,26 @@
+{
+    "irc": {
+        "server": "irc.server.address",
+        "nick": "wormhole",
+        "port": 6667,
+        "channels": [
+            "wormhole-testing",
+        ],
+        "highlights": {
+            "all": [["ping", "wormhole"]],
+            "chan1": [
+                "wormhole ",
+                "wormhole:"
+            ],
+            "chan2": [
+                "wormhole ",
+                "wormhole:"
+            ]
+        }
+    },
+    "slack": {
+        "hook_url": "PUT THE SLACK HOOK URL HERE",
+        "bot_url": "PUT THE URL TO THE APP HERE",
+        "pinger-token": "wormhole"
+    }
+}
